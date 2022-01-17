@@ -33,8 +33,8 @@ Aumentation:
 | CNN trained on my own dataset | 8.8 % | 26.4 % |
 | CNN trained on perfectly_detected_ears dataset | 24.4 % | 45.6 % |
 
-CMC Curve for  CNN trained on my own dataset:
-![cmc_svoji](https://user-images.githubusercontent.com/79637072/149776572-3567da69-5709-46f8-b830-837157c010b3.png)
+CMC Curve for CNN trained on my own dataset</br>
+<img width="500" src="https://user-images.githubusercontent.com/79637072/149776572-3567da69-5709-46f8-b830-837157c010b3.png">
 
-CMC Curve for CNN trained on perfectly_detected_ears dataset:
-![cmc_perfect](https://user-images.githubusercontent.com/79637072/149776632-a1fc846d-5ecf-4074-b9e7-15a883a9af94.png)
+CMC Curve for CNN trained on perfectly_detected_ears dataset: </br>
+<img width="500" src="https://user-images.githubusercontent.com/79637072/149776632-a1fc846d-5ecf-4074-b9e7-15a883a9af94.png">
