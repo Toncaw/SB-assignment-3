@@ -2,7 +2,7 @@
 For this asignment we were learning about and implement last 2 steps in IBB recognition pipeline
 
 # My work
-1. Extracted my training dataset of ears using yolov4 from my prefious asignment
+1. Extracted my training dataset of ears using yolov4 from my previous asignment
 2. Augment my training dataset 
 3. Augment perfectly_detected_ears dataset
 
