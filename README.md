@@ -28,6 +28,7 @@ Aumentation:
 # Results
 
 | Model | Rank-1 | Rank-5 |
+| --- | --- | --- |
 | pix-2-pix | 6,41 % | |
 | CNN trained on my own dataset | 8.8 % | 26.4 % |
 | CNN trained on perfectly_detected_ears dataset | 24.4 % | 45.6 % |
