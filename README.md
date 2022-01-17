@@ -40,5 +40,5 @@ CMC Curve for CNN trained on perfectly_detected_ears dataset: </br>
 <img width="500" src="https://user-images.githubusercontent.com/79637072/149776632-a1fc846d-5ecf-4074-b9e7-15a883a9af94.png">
 
 
-Additional
+Additional: </br>
 I started with the idea of training on google colab and testing on local machine, but i had a lot of issues setting up keras localy so i gave up on that idea and decited to test on colab as well, so that is why the code is all over the place. sorry =) 
