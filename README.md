@@ -6,22 +6,22 @@ For this asignment we were learning about and implement last 2 steps in IBB reco
 2. Augment my training dataset 
 3. Augment perfectly_detected_ears dataset
 
-Aumentation:
-  - Blured the images with kernel 5x5
-  - Sharpen the images with hernel([[0, -1, 0],
-                                   [-1, 5, -1],
-                                    [0, -1, 0]])
-  - Equalized the luminocity of the images (covert from rgb to yuv and equalized the y heistogram)
-  - Rotated all of the above pictures from -35° to 35° with 5° step
-    - so total there are 15x3 new pictures for every ear 
+    Aumentation:
+      - Blured the images with kernel 5x5
+      - Sharpen the images with hernel([[0, -1, 0],
+                                       [-1, 5, -1],
+                                        [0, -1, 0]])
+      - Equalized the luminocity of the images (covert from rgb to yuv and equalized the y heistogram)
+      - Rotated all of the above pictures from -35° to 35° with 5° step
+        - so total there are 15x3 new pictures for every ear 
  
  5. Trained my own CNN with help of Keras on my own training dataset (augmented).
  6. Trained  CNN with help of Keras on perfectly_detected_ears dataset (augmented).
 
-  Training:
-    - I trained the weights on google colab.
-    - After some testing i realised that about 35 epoches deep the ram gets filled up and whole thing chrashes. (due to vast number of training data)
-    - So i decided to save weights after 30 epochs (~15 min of training).
+    Training:
+      - I trained the weights on google colab.
+      - After some testing i realised that about 35 epoches deep the ram gets filled up and whole thing chrashes. (due to vast number of training data)
+      - So i decided to save weights after 30 epochs (~15 min of training).
     
 7. I Calculated the ranks and drew the CMC curve for trained models
 
